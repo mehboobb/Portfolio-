@@ -123,3 +123,33 @@ nav ul li{
 .hero h1{
     font-size:30px;
 }
+    .skill{
+    width:100%;
+    background:#333;
+    border-radius:20px;
+    margin-bottom:20px;
+}
+
+.skill div{
+    height:25px;
+    line-height:25px;
+    color:white;
+    text-align:center;
+    border-radius:20px;
+    font-weight:bold;
+}
+
+.html{
+    width:90%;
+    background:#ff9800;
+}
+
+.css{
+    width:80%;
+    background:#2196F3;
+}
+
+.js{
+    width:50%;
+    background:#4CAF50;
+}
