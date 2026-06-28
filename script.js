@@ -16,10 +16,12 @@ updateClock();
 function changeImage() {
     const image = document.getElementById("portfolioImage");
 
-    if (image.src.includes("image2.jpg")) {
+    if (image.src.includes("image1.jpg")) {
         image.src = "image2.jpg";
     } else {
-        image.src = "image2.jpg";
+        image.src = "image1.jpg";
+    }
+}
     }
     
 function validateForm() {
