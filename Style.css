@@ -88,6 +88,20 @@ nav ul li a:hover{
     max-width:600px;
     margin:15px auto;
 }
+.btn {
+    display: inline-block;
+    background: #0077b5;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #005f8d;
+    transform: translateY(-3px);
+}
 
 button{
     background:#ff9800;
