@@ -103,7 +103,15 @@
                 </section>
 
                     </section>
-<img id="portfolioImage" src="image1.jpg" width="300">
+<function changeImage() {
+    const image = document.getElementById("portfolioImage");
+
+   < if (image.src.includes("profile.jpg")) {
+        image.src = "profile2.jpg";
+    } else {
+        image.src = "profile.jpg";
+    }
+}
 
 <br><br>
 
