@@ -98,6 +98,30 @@ button:hover{
     background:#e68900;
     
 }
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+.top-btn {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.top-btn:hover {
+    background: white;
+    color: #222;
+}
 
 @media (max-width: 768px) {
     body {
