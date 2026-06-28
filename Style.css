@@ -12,6 +12,14 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode a {
+    color: #66ccff;
+}
 
 body{
     background:#121212;
