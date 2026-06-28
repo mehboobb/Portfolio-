@@ -21,4 +21,19 @@ function changeImage() {
     } else {
         image.src = "image1.jpg";
     }
+    
+function validateForm() {
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let error = document.getElementById("error");
+
+    if (name === "" || email === "") {
+        error.textContent = "Please fill in both your name and email.";
+        error.style.color = "red";
+        return false;
+    }
+
+    error.textContent = "Form submitted successfully!";
+    error.style.color = "green";
+    return false; // Prevents page refresh for now
 }
