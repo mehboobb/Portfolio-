@@ -270,3 +270,13 @@ textarea {
     padding: 8px;
     border-bottom: 1px solid #ddd;
 }
+#quotes {
+    text-align: center;
+    padding: 30px;
+}
+
+#quote {
+    font-size: 20px;
+    margin: 20px 0;
+    font-style: italic;
+}
