@@ -262,3 +262,11 @@ textarea {
 #error {
     font-weight: bold;
     }
+#taskList {
+    margin-top: 20px;
+}
+
+#taskList li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
