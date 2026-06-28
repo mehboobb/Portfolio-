@@ -13,15 +13,7 @@ function updateClock() {
 
 setInterval(updateClock, 1000);
 updateClock();
-function changeImage() {
-    const image = document.getElementById("portfolioImage");
 
-    if (image.src.includes("image1.jpg")) {
-        image.src = "image2.jpg";
-    } else {
-        image.src = "image1.jpg";
-    }
-}
     }
     
 function validateForm() {
@@ -80,11 +72,4 @@ const quotes = [
     "Every expert was once a beginner.",
     "Hard work beats talent when talent doesn't work hard.",
     "Keep learning every day."
-];
-const quotes = [
-    "Quote 1",
-    "Quote 2",
-    "Quote 3",
-    "Quote 4",
-    "Quote 5"
-];
+
