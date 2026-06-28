@@ -84,3 +84,10 @@ function newQuote() {
     "Hard work beats talent when talent doesn't work hard.",
     "Keep learning every day."
 ];
+const quotes = [
+    "Quote 1",
+    "Quote 2",
+    "Quote 3",
+    "Quote 4",
+    "Quote 5"
+];
