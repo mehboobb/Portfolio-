@@ -16,10 +16,10 @@ updateClock();
 function changeImage() {
     const image = document.getElementById("portfolioImage");
 
-    if (image.src.includes("image1.jpg")) {
+    if (image.src.includes("image2.jpg")) {
         image.src = "image2.jpg";
     } else {
-        image.src = "image1.jpg";
+        image.src = "image2.jpg";
     }
     
 function validateForm() {
@@ -70,12 +70,7 @@ const quotes = [
     "Practice makes progress.",
     "Every expert was once a beginner.",
     "Believe in yourself.",
-    "Keep learning every day."
-];
-
-function newQuote() {
-    const randomIndex = Math.floor(Math.random() * quotes.length);
-    document.getElementById("quote").textContent = quotes[randomIndex];
+    "Keep learning every day.";
 }
     const quotes = [
     "Dream big and never give up.",
