@@ -251,3 +251,14 @@ nav ul li{
 #contact a:hover {
     text-decoration: underline;
 }
+    input,
+textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#error {
+    font-weight: bold;
+    }
