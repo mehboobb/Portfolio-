@@ -167,3 +167,18 @@ nav ul li{
     width:50%;
     background:#4CAF50;
 }
+    #contact {
+    background: #f4f4f4;
+    padding: 40px;
+    text-align: center;
+}
+
+#contact a {
+    color: #0077b5;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
