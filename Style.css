@@ -9,6 +9,9 @@
     box-sizing:border-box;
     font-family:Arial,sans-serif;
 }
+body {
+    font-family: 'Poppins', sans-serif;
+}
 
 body{
     background:#121212;
