@@ -65,3 +65,15 @@ window.onload = function () {
     tasks.forEach(createTask);
 };
 }
+const quotes = [
+    "Success comes from consistency.",
+    "Practice makes progress.",
+    "Every expert was once a beginner.",
+    "Believe in yourself.",
+    "Keep learning every day."
+];
+
+function newQuote() {
+    const randomIndex = Math.floor(Math.random() * quotes.length);
+    document.getElementById("quote").textContent = quotes[randomIndex];
+}
