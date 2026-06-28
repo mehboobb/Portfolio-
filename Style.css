@@ -96,6 +96,21 @@ button{
 
 button:hover{
     background:#e68900;
+    
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
 }
 
 section{
