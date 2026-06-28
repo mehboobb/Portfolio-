@@ -77,3 +77,10 @@ function newQuote() {
     const randomIndex = Math.floor(Math.random() * quotes.length);
     document.getElementById("quote").textContent = quotes[randomIndex];
 }
+    const quotes = [
+    "Dream big and never give up.",
+    "Success comes from consistency.",
+    "Every expert was once a beginner.",
+    "Hard work beats talent when talent doesn't work hard.",
+    "Keep learning every day."
+];
